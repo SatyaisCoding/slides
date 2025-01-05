@@ -27,7 +27,7 @@ export default function Home() {
     {
       name: 'Smart AI Plan',
       description: 'Advanced features for power users',
-      price: '$99',
+      price: '$49',
       features: [
         'All features from Free Plan',
         'AI-powered response generation',
@@ -46,10 +46,10 @@ export default function Home() {
           <div className="container px-4 py-8">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <div className="h-8 w-8 rounded-lg bg-white flex items-center justify-center font-bold">
+                <div className="h-8 w-8 rounded-lg bg-white-100 flex items-center justify-center font-bold">
                   li
                 </div>
-                <span className="text-xl font-semibold text-primary-foreground">
+                <span className="text-xl text-white font-semibold text-primary-foreground">
                   Slide
                 </span>
               </div>
@@ -58,7 +58,7 @@ export default function Home() {
                 <Link href="#pricing">Pricing</Link>
                 <Link href="#about">About</Link>
               </nav>
-              <Button className="bg-white text-primary">
+              <Button className="text-l bg-white-100 text-primary font-bold">
                 <Link href="/dashboard">Login</Link>
               </Button>
             </div>
