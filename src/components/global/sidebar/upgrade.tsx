@@ -2,8 +2,8 @@ import React from 'react'
 
 type Props = {}
 
-const Page = (props: Props) => {
+const upgrade = (props: Props) => {
   return (
-    <div>Page</div>
+    <div>upgrade</div>
   )
 }
