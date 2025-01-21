@@ -5,8 +5,9 @@ import Items from "./items";
 import { Separator } from "@/components/ui/separator";
 import ClerkAuthState from "../clerk-auth-state";
 import { HelpDuoToneWhite } from "@/icons";
-import { SubscriptionPlan } from "../subscription-plan";
 import UpgradeCard from "./upgrade";
+import { SubscriptionPlan } from '../subscription-plan'
+
 
 type Props = {
   slug: string;
@@ -48,7 +49,7 @@ const Sidebar = ({ slug }: Props) => {
        backdrop-blur-3xl"
       >
         <div className="flex gap-x-2 items-center p-5 justify-center">
-          <LogoSmall />
+          {/* <LogoSmall /> */}
         </div>
         <div className="flex flex-col py-3">
           <Items page={page} slug={slug} />

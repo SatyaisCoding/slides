@@ -3,8 +3,8 @@ import {
     HomeDuoToneWhite,
     RocketDuoToneWhite,
     SettingsDuoToneWhite,
-  } from '@/icons
-  import { v4 as uuid } from 'uuid'
+  } from "@/icons";
+  import { v4 as uuid } from 'uuid';
   
   export type FieldProps = {
     label: string
@@ -37,7 +37,4 @@ import {
       icon: <SettingsDuoToneWhite />,
     },
   ]
-
-
-  /// Commitiing for the Blank
   
